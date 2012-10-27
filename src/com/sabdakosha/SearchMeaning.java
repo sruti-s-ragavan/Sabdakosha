@@ -1,28 +1,40 @@
 package com.sabdakosha;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ListView;
+
+import java.util.*;
 
 public class SearchMeaning extends Activity {
+    ApplicationDictionary dictionary;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        dictionary = new ApplicationDictionary();
     }
 
     public void onSearchWord(View view) {
         String searchWord = GetSearchKey();
-        AlertDialog dialog = new AlertDialog.Builder(this).create();
-        dialog.setMessage(searchWord);
-        dialog.show();
+        ArrayList<String> matches = dictionary.GetEntriesContaining(searchWord);
+        DisplayMatches(matches);
+    }
+
+    private void DisplayMatches(ArrayList<String> entries) {
+        ListView matchingEntriesListView = (ListView) findViewById(R.id.meaning_list);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, entries);
+        matchingEntriesListView.setAdapter(adapter);
+
     }
 
     private String GetSearchKey() {
-        EditText searchKeyBox = (EditText)findViewById(R.id.txt_SearchKey);
+        EditText searchKeyBox = (EditText) findViewById(R.id.txt_SearchKey);
         return searchKeyBox.getText().toString();
     }
 }
