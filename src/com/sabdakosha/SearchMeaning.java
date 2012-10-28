@@ -1,6 +1,7 @@
 package com.sabdakosha;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -38,7 +39,9 @@ public class SearchMeaning extends Activity {
         ListView matchingEntriesListView = (ListView) findViewById(R.id.meaning_list);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, entries);
         matchingEntriesListView.setAdapter(adapter);
-
+        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setMessage("Search done");
+        alertDialog.show();
     }
 
     private String GetSearchKey() {

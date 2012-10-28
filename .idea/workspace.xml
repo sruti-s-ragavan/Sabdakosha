@@ -13,13 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d59f15-6c6c-45fe-af7d-4c18e640807f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dictionary.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/sabdakosha/R.java" afterPath="$PROJECT_DIR$/gen/com/sabdakosha/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java" afterPath="$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sabdakosha/Repository.java" afterPath="$PROJECT_DIR$/src/com/sabdakosha/Repository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java" afterPath="$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java" />
-      <change type="MOVED" beforePath="F:\Projects\Sabdakosha\assets\Dictionary\dictionary.txt" afterPath="$PROJECT_DIR$/res/raw/dictionary.txt" />
     </list>
     <ignored path="Sabdakosha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +76,7 @@
       <file leaf-file-name="SearchMeaning.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="31" selection-start="1363" selection-end="1363" vertical-scroll-proportion="-12.92">
+            <state line="33" column="49" selection-start="985" selection-end="985" vertical-scroll-proportion="-7.48">
               <folding />
             </state>
           </provider>
@@ -89,10 +85,8 @@
       <file leaf-file-name="ApplicationDictionary.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="-11.56">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="12" column="50" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,7 +94,7 @@
       <file leaf-file-name="Repository.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="768" selection-end="768" vertical-scroll-proportion="0.6219512">
+            <state line="19" column="99" selection-start="548" selection-end="548" vertical-scroll-proportion="0.4738676">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Repository#0;class#Repository#0" expanded="false" />
@@ -260,6 +254,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sabdakosha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sabdakosha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/raw/dictionary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="654" selection-end="654" vertical-scroll-proportion="0.45454547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="41" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
@@ -648,25 +653,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/dictionary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9319" column="7" selection-start="367494" selection-end="367494" vertical-scroll-proportion="0.7878788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="1363" selection-end="1363" vertical-scroll-proportion="-12.92">
+        <state line="33" column="49" selection-start="985" selection-end="985" vertical-scroll-proportion="-7.48">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="-11.56">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="50" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="768" selection-end="768" vertical-scroll-proportion="0.6219512">
+        <state line="19" column="99" selection-start="548" selection-end="548" vertical-scroll-proportion="0.4738676">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Repository#0;class#Repository#0" expanded="false" />

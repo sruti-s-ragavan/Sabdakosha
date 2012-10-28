@@ -1,6 +1,5 @@
 package com.sabdakosha;
 
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 
 public class ApplicationDictionary {
@@ -11,8 +10,7 @@ public class ApplicationDictionary {
     }
 
     public ArrayList<String> GetEntriesContaining(String searchWord) {
-        String pattern = ".*" + searchWord + ".*";
-        ArrayList<String> matches = repository.getWordsMatching(pattern);
+        ArrayList<String> matches = repository.getWordsContaining(searchWord);
         return matches;
     }
 
