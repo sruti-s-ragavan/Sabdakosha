@@ -13,11 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d59f15-6c6c-45fe-af7d-4c18e640807f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Dictionary/dictionary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sabdakosha/Repository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/sabdakosha/R.java" afterPath="$PROJECT_DIR$/gen/com/sabdakosha/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java" afterPath="$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java" afterPath="$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java" />
     </list>
     <ignored path="Sabdakosha.iws" />
@@ -79,11 +78,8 @@
       <file leaf-file-name="SearchMeaning.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="653" selection-end="653" vertical-scroll-proportion="-8.16">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#932#940#0" expanded="true" />
-              </folding>
+            <state line="19" column="50" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,10 +87,22 @@
       <file leaf-file-name="ApplicationDictionary.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="67" selection-start="547" selection-end="547" vertical-scroll-proportion="0.5034843">
+            <state line="21" column="56" selection-start="718" selection-end="718" vertical-scroll-proportion="0.6219512">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#786#794#0" expanded="true" />
+                <element signature="e#631#639#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#228#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +142,9 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/sabdakosha/Dictionary.java" />
+        <option value="$PROJECT_DIR$/res/dictionary.txt" />
         <option value="$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java" />
+        <option value="$PROJECT_DIR$/src/com/sabdakosha/Repository.java" />
         <option value="$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java" />
       </list>
     </option>
@@ -260,6 +270,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sabdakosha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sabdakosha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dictionary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -278,12 +306,21 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\Sabdakosha\res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Projects\Sabdakosha\assets" />
+      <recent name="F:\Projects\Sabdakosha\res\Dictionary" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.Sabdakosha">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -331,6 +368,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -356,24 +411,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -571,57 +608,59 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gen/com/sabdakosha/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="339" selection-end="339" vertical-scroll-proportion="0.38501742">
-          <folding>
-            <element signature="e#0#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="31" selection-start="339" selection-end="339" vertical-scroll-proportion="0.38501742" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/java/util/Hashtable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="808" selection-end="811" vertical-scroll-proportion="0.33256617">
-          <folding />
-        </state>
+        <state line="21" column="26" selection-start="808" selection-end="811" vertical-scroll-proportion="0.33256617" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/java/util/Dictionary.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="438" selection-end="438" vertical-scroll-proportion="0.273878">
-          <folding />
-        </state>
+        <state line="15" column="45" selection-start="438" selection-end="438" vertical-scroll-proportion="0.273878" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="60" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="1209" selection-end="1221" vertical-scroll-proportion="0.0">
+        <state line="27" column="41" selection-start="1209" selection-end="1221" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Dictionary/dictionary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="43" selection-start="803" selection-end="803" vertical-scroll-proportion="0.37733644">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#228#244#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="653" selection-end="653" vertical-scroll-proportion="-8.16">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#932#940#0" expanded="true" />
-          </folding>
+        <state line="19" column="50" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="67" selection-start="547" selection-end="547" vertical-scroll-proportion="0.5034843">
+        <state line="21" column="56" selection-start="718" selection-end="718" vertical-scroll-proportion="0.6219512">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#786#794#0" expanded="true" />
+            <element signature="e#631#639#0" expanded="true" />
           </folding>
         </state>
       </provider>

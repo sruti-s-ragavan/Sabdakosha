@@ -7,17 +7,11 @@ import java.util.List;
 
 public class ApplicationDictionary {
     java.util.Dictionary<String, String> dictionary;
+    Repository repository;
 
-    public void ApplicationDictionary(){
-        InitializeDictionary();
-    }
-
-    private void InitializeDictionary() {
-        dictionary = new Hashtable<String, String>();
-        dictionary.put("a", "b");
-        dictionary.put("aa", "bb");
-        dictionary.put("aa", "bc");
-        dictionary.put("c", "c");
+    public ApplicationDictionary(Repository repo) {
+        this.repository = repo;
+        dictionary = repository.LoadDictionary();
     }
 
     public ArrayList<String> GetEntriesContaining(String searchWord) {

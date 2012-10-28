@@ -16,8 +16,8 @@ public class SearchMeaning extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
-        dictionary = new ApplicationDictionary();
+        Repository repository = new Repository();
+        dictionary = new ApplicationDictionary(repository);
     }
 
     public void onSearchWord(View view) {
