@@ -1,18 +1,35 @@
 package com.sabdakosha;
 
-import java.util.Dictionary;
-import java.util.Hashtable;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
 
 public class Repository {
-    public Dictionary<String, String> LoadDictionary() {
+    private ArrayList<String> words;
+    private InputStream inputStream;
+    private Charset utf8Charset = Charset.forName("UTF-8");
 
-        Dictionary<String, String> dictionary = new Hashtable<String, String>();
-        dictionary.put("a", "b");
-        dictionary.put("aa", "bb");
-        dictionary.put("aa", "bc");
-        dictionary.put("c", "c");
-
-        return dictionary;
+    public Repository(InputStream inputStream) {
+        this.inputStream = inputStream;
     }
 
+
+    public ArrayList<String> getWordsMatching(String pattern) {
+        words = new ArrayList<String>();
+        String line;
+        try {
+            InputStreamReader inputStreamReader = new InputStreamReader(inputStream, utf8Charset);
+            BufferedReader dictionaryReader = new BufferedReader(inputStreamReader);
+            while((line = dictionaryReader.readLine())!= null)    {
+                if(line.matches(pattern))
+                    words.add(line);
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+        return words;
+    }
 }

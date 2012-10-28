@@ -7,16 +7,24 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.*;
 
 public class SearchMeaning extends Activity {
     ApplicationDictionary dictionary;
+    private InputStream inputStream;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        Repository repository = new Repository();
+        Initialize();
+    }
+
+    private void Initialize() {
+        inputStream = getResources().openRawResource(R.raw.dictionary);
+        Repository repository = new Repository(inputStream);
         dictionary = new ApplicationDictionary(repository);
     }
 
@@ -36,5 +44,6 @@ public class SearchMeaning extends Activity {
     private String GetSearchKey() {
         EditText searchKeyBox = (EditText) findViewById(R.id.txt_SearchKey);
         return searchKeyBox.getText().toString();
+
     }
 }
