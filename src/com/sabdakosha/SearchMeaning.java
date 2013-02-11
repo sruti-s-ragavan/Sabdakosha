@@ -14,7 +14,6 @@ import java.util.*;
 
 public class SearchMeaning extends Activity {
     ApplicationDictionary dictionary;
-    private InputStream inputStream;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,29 +23,34 @@ public class SearchMeaning extends Activity {
     }
 
     private void Initialize() {
-        inputStream = getResources().openRawResource(R.raw.dictionary);
-        Repository repository = new Repository(inputStream);
-        dictionary = new ApplicationDictionary(repository);
+        dictionary = new ApplicationDictionary(this.getApplicationContext());
+        dictionary.Init();
     }
 
     public void onSearchWord(View view) {
         String searchWord = GetSearchKey();
-        ArrayList<String> matches = dictionary.GetEntriesContaining(searchWord);
-        DisplayMatches(matches);
+//        ArrayList<String> matches = dictionary.GetEntriesContaining(searchWord);
+//        DisplayMatches(matches);
+        int count = dictionary.SearchMatches(searchWord);
+        Alert(searchWord + count);
     }
 
     private void DisplayMatches(ArrayList<String> entries) {
         ListView matchingEntriesListView = (ListView) findViewById(R.id.meaning_list);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, entries);
         matchingEntriesListView.setAdapter(adapter);
-        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-        alertDialog.setMessage("Search done");
-        alertDialog.show();
+
     }
 
     private String GetSearchKey() {
         EditText searchKeyBox = (EditText) findViewById(R.id.txt_SearchKey);
         return searchKeyBox.getText().toString();
 
+    }
+
+    private void Alert(String text){
+        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setMessage(text);
+        alertDialog.show();
     }
 }
