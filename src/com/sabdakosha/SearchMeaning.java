@@ -29,10 +29,8 @@ public class SearchMeaning extends Activity {
 
     public void onSearchWord(View view) {
         String searchWord = GetSearchKey();
-//        ArrayList<String> matches = dictionary.GetEntriesContaining(searchWord);
-//        DisplayMatches(matches);
-        int count = dictionary.SearchMatches(searchWord);
-        Alert(searchWord + count);
+        ArrayList<String> matches = dictionary.SearchMatches(searchWord);
+        DisplayMatches(matches);
     }
 
     private void DisplayMatches(ArrayList<String> entries) {
