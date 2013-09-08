@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 
 public class ApplicationDictionary {
@@ -16,15 +17,14 @@ public class ApplicationDictionary {
         this.context = context;
     }
 
-    public ArrayList<String> SearchMatches(String searchString){
+    public ArrayList<WordMeaningPair> SearchMatches(String searchString){
         dbHelper.openDataBase();
         SQLiteDatabase database = dbHelper.getDatabase();
         String query = getQuery(searchString);
         Cursor dbCursor = database.rawQuery(query, new String[]{});
-        ArrayList<String> results = ProcessSearchResults(dbCursor);
+        ArrayList<WordMeaningPair> results = ProcessSearchResults(dbCursor);
         dbHelper.close();
         return results;
-
     }
 
     private String getQuery(String searchString) {
@@ -34,18 +34,16 @@ public class ApplicationDictionary {
         return "select * from Dictionary WHERE " + whereClause;
     }
 
-    private ArrayList<String> ProcessSearchResults(Cursor dbCursor) {
+    private ArrayList<WordMeaningPair> ProcessSearchResults(Cursor dbCursor) {
 
-        ArrayList<String> results = new ArrayList<String>();
+        ArrayList<WordMeaningPair> results = new ArrayList<WordMeaningPair>();
         dbCursor.moveToFirst();
-        int  noOfColumns = dbCursor.getColumnCount();
         while(!dbCursor.isAfterLast()) {
-            String resultString = "";
-            for(int i=0; i<noOfColumns; i++, resultString+=" "){
-                String stringVal = dbCursor.getString(i);
-                resultString = resultString.concat(stringVal);
-            }
-            results.add(resultString);
+                String word = dbCursor.getString(dbCursor.getColumnIndex("Word"));
+                //String wordAsUtf8 = word.getBytes(Charset.forName("UTF-8")).toString();
+                String meaning = dbCursor.getString(dbCursor.getColumnIndex("Meaning"));
+                WordMeaningPair wordMeaningPair = new WordMeaningPair(word, meaning);
+            results.add(wordMeaningPair);
             dbCursor.moveToNext();
         }
         return results;

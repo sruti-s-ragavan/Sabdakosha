@@ -26,9 +26,15 @@
     <list default="true" id="12d59f15-6c6c-45fe-af7d-4c18e640807f" name="Default" comment="" />
     <ignored path="Sabdakosha.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1377381764680" ignored="false" />
-    <file path="/fragment.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1377381525111" ignored="false" />
-    <file path="/ApplicationDictionary.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1377382616246" ignored="false" />
+    <file path="/Dummy.txt" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378558497896" ignored="false" />
+    <file path="/fragment.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378594344062" ignored="false" />
+    <file path="/ApplicationDictionary.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378579713211" ignored="false" />
+    <file path="/SearchActivity.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378580863795" ignored="false" />
+    <file path="/dictionary_item_view.xml" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378571022555" ignored="false" />
+    <file path="/WordMeaningPair.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378565795089" ignored="false" />
+    <file path="/WordMeaningListAdapter.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378567252574" ignored="false" />
+    <file path="/WordListAdapter.java" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378575968230" ignored="false" />
+    <file path="/main.xml" changelist="12d59f15-6c6c-45fe-af7d-4c18e640807f" time="1378598335576" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,6 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -79,6 +84,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -91,20 +97,66 @@
       <file leaf-file-name="SearchActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="57" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+            <state line="30" column="37" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordListAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/WordListAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="56" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://F:/Android SDK/sources/android-17/android/widget/ArrayAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="355" column="5" selection-start="11879" selection-end="11879" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#17445#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dictionary_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/dictionary_item.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="63" selection-start="636" selection-end="636" vertical-scroll-proportion="-5.78">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationDictionary.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ApplicationDictionary.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="192" selection-end="192" vertical-scroll-proportion="0.3409742">
+            <state line="24" column="45" selection-start="740" selection-end="760" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1252#1260#0" expanded="true" />
+                <element signature="e#1320#1337#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordMeaningPair.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/WordMeaningPair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="36" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,31 +164,29 @@
       <file leaf-file-name="View.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://F:/Android SDK/sources/android-17/android/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2145" column="61" selection-start="81439" selection-end="81439" vertical-scroll-proportion="0.0">
+            <state line="2145" column="59" selection-start="81439" selection-end="81439" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="36" selection-start="797" selection-end="797" vertical-scroll-proportion="0.6149871">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="37" selection-start="3012" selection-end="3012" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#close#0;class#DatabaseHelper#0" expanded="false" />
-              </folding>
+            <state line="20" column="52" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,7 +210,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/sabdakosha/Dictionary.java" />
         <option value="$PROJECT_DIR$/res/dictionary.txt" />
         <option value="$PROJECT_DIR$/assets/dictionary.txt" />
@@ -168,8 +217,14 @@
         <option value="$PROJECT_DIR$/src/com/sabdakosha/Repository.java" />
         <option value="$PROJECT_DIR$/src/com/sabdakosha/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/com/sabdakosha/SearchMeaning.java" />
-        <option value="$PROJECT_DIR$/src/com/sabdakosha/SearchActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/sabdakosha/WordMeaningListAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/dictionary_item_view.xml" />
+        <option value="$PROJECT_DIR$/src/com/sabdakosha/WordMeaningPair.java" />
+        <option value="$PROJECT_DIR$/src/com/sabdakosha/WordListAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java" />
+        <option value="$PROJECT_DIR$/src/com/sabdakosha/SearchActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dictionary_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
       </list>
     </option>
   </component>
@@ -208,6 +263,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sabdakosha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sabdakosha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -320,20 +389,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sabdakosha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sabdakosha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,6 +405,7 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -357,11 +413,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\Others\Sabdakosha\assets" />
       <recent name="E:\Projects\Sabdakosha\assets" />
       <recent name="E:\Projects\Sabdakosha\src\com\sabdakosha" />
       <recent name="F:\Projects\Sabdakosha\res\raw" />
       <recent name="F:\Projects\Sabdakosha\assets" />
-      <recent name="F:\Projects\Sabdakosha\res" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sabdakosha" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Projects\Sabdakosha\res\raw" />
@@ -495,8 +554,8 @@
       <option name="ACTIVITY_CLASS" value="com.sabdakosha.SearchActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="4.2.2" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -545,15 +604,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322166" sideWeight="0.67315716" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44367176" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44367176" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32684284" sideWeight="0.4980695" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -563,14 +623,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.6707589" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2027027" sideWeight="0.55632824" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.497426" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20296392" sideWeight="0.67315716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32684284" sideWeight="0.497426" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67315716" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67315716" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25322166" sideWeight="0.67315716" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -635,61 +694,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/DatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="622" selection-end="631" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#close#0;class#DatabaseHelper#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="136" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="45" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1252#1260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="5" column="68" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/DatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="63" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#close#0;class#DatabaseHelper#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="41" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" />
@@ -710,53 +714,94 @@
         <state line="9299" column="70" selection-start="0" selection-end="367525" vertical-scroll-proportion="0.3210059" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Monier-William">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="8086" selection-end="8086" vertical-scroll-proportion="0.53483146">
-          <folding />
-        </state>
+        <state line="14" column="35" selection-start="8086" selection-end="8086" vertical-scroll-proportion="0.53483146" />
       </provider>
     </entry>
     <entry file="file://F:/Android SDK/sources/android-17/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2145" column="61" selection-start="81439" selection-end="81439" vertical-scroll-proportion="0.0">
+        <state line="2145" column="59" selection-start="81439" selection-end="81439" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchActivity.java">
+    <entry file="jar://F:/Android SDK/platforms/android-17/android.jar!/android/R.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="57" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+        <state line="552" column="32" selection-start="39784" selection-end="39784" vertical-scroll-proportion="0.33260393">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Android SDK/sources/android-17/android/widget/ArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="355" column="5" selection-start="11879" selection-end="11879" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#17445#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="37" selection-start="3012" selection-end="3012" vertical-scroll-proportion="0.0">
+        <state line="20" column="52" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/WordListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="56" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#close#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/WordMeaningPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/ApplicationDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="192" selection-end="192" vertical-scroll-proportion="0.3409742">
+        <state line="24" column="45" selection-start="740" selection-end="760" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1252#1260#0" expanded="true" />
+            <element signature="e#1320#1337#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sabdakosha/SearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="37" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dictionary_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="63" selection-start="636" selection-end="636" vertical-scroll-proportion="-5.78">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="797" selection-end="797" vertical-scroll-proportion="0.6149871">
+          <folding />
         </state>
       </provider>
     </entry>

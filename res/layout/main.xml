@@ -4,14 +4,12 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, SearchMeaning"
-            />
+
     <LinearLayout android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
-                  android:orientation="horizontal">
+                  android:orientation="horizontal"
+                  android:padding="5">
+
         <EditText android:layout_width="wrap_content"
                   android:layout_height="fill_parent"
                   android:hint="Enter english word here"
@@ -24,8 +22,8 @@
 
     </LinearLayout>
     <ListView android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/meaning_list">
+              android:layout_height="wrap_content"
+              android:id="@+id/meaning_list">
 
     </ListView>
 </LinearLayout>
